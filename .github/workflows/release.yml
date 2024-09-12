@@ -1,12 +1,7 @@
 name: Pipeline CI - Dataloom
 
 on:
-  push:
-    branches:
-      - develop
-  pull_request:
-    branches:
-      - develop
+  workflow_dispatch:
 
 jobs:
   # verify-if-pull-request-is-approved:
