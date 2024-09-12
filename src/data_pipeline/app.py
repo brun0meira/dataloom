@@ -56,7 +56,7 @@ def ingestion_csv():
           os.remove(parquet_path)
           print(f"Arquivo temp deletado com sucesso.")
       except Exception as e:
-          print(f"Erro ao deletar o arquivo '{csv_path}': {e}") # noqa
+          print(f"Erro ao deletar o arquivo '{csv_path}': {e}")
           
       return jsonify({"message": "Arquivo convertido e upload feito com sucesso!"}), 200
     
@@ -113,7 +113,7 @@ def save_data():
     os.remove(parquet_path)
     print(f"Arquivo temp deletado com sucesso.")
   except Exception as e:
-      print(f"Erro ao deletar o arquivo '{csv_path}': {e}")      
+      print(f"Erro ao deletar o arquivo '{csv_path}': {e}") # noqa  
   
   return {"ok": "Success to save the data"}
 
