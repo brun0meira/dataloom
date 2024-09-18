@@ -413,3 +413,5 @@ Com base nos resultados das auditorias e do monitoramento contínuo, serão iden
 ### 3.6 Conclusão
 
 A implementação de um processo robusto de medição da qualidade dos dados é essencial para o sucesso do projeto "Assistente de Vendas Hiper Personalizado". Ao garantir a qualidade dos dados, asseguramos que as análises e insights gerados serão precisos e confiáveis, promovendo o sucesso das operações e o alcance das metas estratégicas da empresa em questão.
+
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/SVRRy0tBmJXB38MrwAyDII/DataLoom?embed-host=share" allowfullscreen></iframe>
